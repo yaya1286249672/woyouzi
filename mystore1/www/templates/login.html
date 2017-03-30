@@ -1,0 +1,22 @@
+<ion-view view-title="注册">
+    <ion-content>
+        <div class="list">
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">用户名</span>
+                <input id="cuname" type="text" placeholder="请输入用户名">
+                <span id="un-err">用户名长度为6-16位</span>
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">密码</span>
+                <input id="cpwd" type="text" placeholder="请输入密码">
+                <span class="pwd-err">密码长度为6-16位</span>
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">确认密码</span>
+                <input id="crpwd" type="text" placeholder="确认密码">
+                <span class="pwd-err"></span>
+            </label>
+            <a ng-click="btt()" class="button button-positive button-block">注册</a>
+        </div>
+    </ion-content>
+</ion-view>

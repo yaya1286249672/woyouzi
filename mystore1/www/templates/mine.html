@@ -1,0 +1,18 @@
+<ion-view view-title="我的">
+	<ion-content>
+		<div class="list">
+			<label class="item item-input">
+				<span class="input-label">用户名</span>
+				<input id="uname" type="text" placeholder="请输入账号">
+			</label>
+			<label class="item item-input">
+				<span class="input-label">密码</span>
+				<input id="pwd" type="password" placeholder="请输入密码">
+			</label>
+			<span id="err"></span>
+		</div>
+		<a ng-click="bt()" class="button button-block button-positive">登陆</a>
+		<a ng-click="bu()" href="#/tab/login" class="button button-block button-positive">注册</a>
+
+	</ion-content>
+</ion-view>
